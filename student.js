@@ -5,7 +5,7 @@ const PORT = 4001;
 app.use(express.json());
 
 let students = [
-    { id: 1, name: "Aarav", marks: 95},
+    { id: 1, name: "Aarav", marks: 90},
     { id: 2, name: "Priya", marks: 92},
     { id: 3, name: "Rahul", marks: 78}
 ];
