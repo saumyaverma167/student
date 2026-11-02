@@ -5,9 +5,9 @@ const PORT = 4001;
 app.use(express.json());
 
 let students = [
-    { id: 1, name: "Aarav", marks: 90},
-    { id: 2, name: "Priya", marks: 92},
-    { id: 3, name: "Rahul", marks: 78}
+    { id: 1, name: "Aarav", marks: 4},
+    { id: 2, name: "Priya", marks: 5},
+    { id: 3, name: "Rahul", marks: 6}
 ];
 
 app.get('/',(req,res) => {
